@@ -13,9 +13,9 @@ The main goal is to identify meaningful customer segments (personas) that a mall
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-- `kmeanCLustering.pdf`  
+- `Customer Segmentation with K-Means.pdf`  
   Full report / notebook export showing:
   - Data loading and cleaning
   - Exploratory Data Analysis (EDA)
@@ -24,15 +24,12 @@ The main goal is to identify meaningful customer segments (personas) that a mall
   - Cluster interpretation and customer personas
 
 - (Optional files you might have)
-  - `Mall_Customers.csv` – Dataset used in the analysis  
-  - `notebook.ipynb` – Jupyter notebook version of the analysis  
-  - `images/` – Plots and visualizations used in the report  
-
-> Update this section to reflect the exact files in your repo.
+  - `Mall_Customers.csv` – Dataset used in the analysis
+  - `Customer Segmentation with K-Means.ipynb` - Jupyter notebook version of the analysis 
 
 ---
 
-## 🧾 Dataset Description
+## Dataset Description
 
 The project uses the **Mall Customers** dataset. Each row represents a customer with the following columns:
 
@@ -51,7 +48,7 @@ These features allow us to understand how much customers earn and how much they 
 
 ---
 
-## 🎯 Objective
+## Objective
 
 > **Perform customer segmentation using K-Means clustering** to group mall customers based on **Annual Income** and **Spending Score**.
 
@@ -63,9 +60,9 @@ Key questions addressed:
 
 ---
 
-## 🔍 Methodology Overview
+## Methodology Overview
 
-The analysis (documented in `kmeanCLustering.pdf`) follows these main steps:
+The analysis *(documented in `Customer Segmentation with K-Means.pdf`)* follows these main steps:
 
 ### 1. Data Loading & Initial Checks
 
@@ -75,7 +72,7 @@ The analysis (documented in `kmeanCLustering.pdf`) follows these main steps:
   - Data types of each column
   - Missing values and basic statistics
 
-(See examples and summary tables on **pages 1–2** of the PDF.)
+*(See examples and summary tables on **pages 1–2** of the PDF.)*
 
 ### 2. Exploratory Data Analysis (EDA)
 
@@ -91,7 +88,7 @@ Key EDA steps include:
   - Annual Income (k$)
   - Spending Score (1–100)
 
-  These histograms (shown on **page 2–3**) highlight:
+  These histograms highlight:
   - Age is approximately normally distributed.
   - Annual income is slightly right-skewed with a concentration in the 30–35 k$ range.
   - Spending scores are relatively uniform with a slight skew.
@@ -155,7 +152,7 @@ Bar charts and plots on **pages 8–9** visualize how each cluster differs in te
 
 ---
 
-## 🧍‍♂️🧍‍♀️ Customer Personas (Cluster Profiles)
+## Customer Personas (Cluster Profiles)
 
 Based on the cluster centroids and EDA, five main customer segments are identified. In the PDF (see **page 9**) they are interpreted as:
 
